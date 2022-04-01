@@ -12,16 +12,16 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="preload"
-            href="/fonts/Faktum/FaktumWideMedium/font.woff2"
+            href="/fonts/Faktum/FaktumWideMedium.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/Faktum/FaktumWideMedium/font.woff"
+            href="/fonts/Faktum/FaktumWideMedium.woff"
             as="font"
-            type="font/woff2"
+            type="font/woff"
             crossOrigin="anonymous"
           />
           <link
@@ -34,6 +34,48 @@ class MyDocument extends Document {
           <link
             rel="preload"
             href="/fonts/Faktum/FaktumWideSemiBold.woff"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/Inter/Inter-Regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/Inter/Inter-Regular.woff"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/Inter/Inter-Medium.woff2"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/Inter/Inter-Medium.woff"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/IBMPlexMono/IBMPlexMono-Medium.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/IBMPlexMono/IBMPlexMono-Medium.woff"
             as="font"
             type="font/woff"
             crossOrigin="anonymous"
