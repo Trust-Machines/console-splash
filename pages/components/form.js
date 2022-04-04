@@ -26,7 +26,7 @@ export default function Form({ status }) {
           </div>
         </div>
       ) : null}
-      <form className="w-full sm:max-w-md sm:mx-auto" method="post" action="/api/subscribe">
+      <form className="w-full sm:max-w-lg sm:mx-auto sm:px-12" method="post" action="/api/subscribe">
         <label htmlFor="email" className="sr-only">
           Email address
         </label>
@@ -36,7 +36,7 @@ export default function Form({ status }) {
             name="email"
             id="email"
             autoComplete="email"
-            className="block w-full h-12 border-0 border-transparent bg-white/5 hover:bg-white/10 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#FF6700]/5 focus:border-white text-[0.9375rem] text-white placeholder:text-white/48 rounded-2xl text-center"
+            className="block w-full h-12 border-0 border-transparent bg-white/5 hover:bg-white/10 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#FF6700]/5 focus:border-white text- base sm:text-[0.9375rem] text-white placeholder:text-white/48 rounded-2xl text-center"
             placeholder="Enter your email address"
             required
             onFocus={handleFocus}
