@@ -11,7 +11,7 @@ export default function Home() {
   const signupStatus = router.query;
 
   return (
-    <div className="relative w-screen h-screen font-body bg-console-black">
+    <div className="relative w-screen h-screen font-body">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
