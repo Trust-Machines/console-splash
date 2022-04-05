@@ -25,6 +25,10 @@ module.exports = {
         body: ['Inter', ...defaultTheme.fontFamily.sans],
         captions: ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
       },
+      screens: {
+        'tall': { 'raw': '(max-height: 640px)' },
+        'taller': { 'raw': '(max-width: 768px), (max-height: 680px)' },
+      }
     },
   },
   plugins: [
